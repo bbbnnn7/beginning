@@ -59,4 +59,4 @@ class Scoreboard:
 		self.screen.blit(self.score_image , self.score_rect)
 		self.screen.blit(self.hs_image , self.hs_rect)
 		self.screen.blit(self.level_image , self.level_rect)
-		sel.ships.draw(self.screen)
+		self.ships.draw(self.screen)
